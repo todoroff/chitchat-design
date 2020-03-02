@@ -1,0 +1,16 @@
+.sidebar {
+  padding: $default-padding;
+  flex: 0 0 30rem;
+  &--left {
+    background: $color-primary-darker;
+    @media (max-width: $bp-phone) {
+      display: none;
+    }
+  }
+  &--right {
+    background: $color-primary-dark;
+    @media (max-width: $bp-tablet) {
+      display: none;
+    }
+  }
+}

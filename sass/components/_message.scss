@@ -1,0 +1,51 @@
+.message {
+  padding: 0 2rem;
+  //background:salmon;
+  margin: 1rem 0 0 0;
+  $block: &;
+  &__avatar {
+    clip-path: circle(50% at 50% 50%);
+    width: 4rem;
+    height: 4rem;
+    float: left;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    cursor: pointer;
+
+    &:hover #{$block}__avatar-img {
+      transform: scale(1.5);
+      filter: blur(0.1rem);
+    }
+  }
+  &__avatar-img {
+    transform: scale(1);
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s;
+  }
+  &__sender {
+    font-weight: 700;
+    color: $color-secondary-light;
+    &:link,
+    &:visited,
+    &:active {
+      text-decoration: none;
+    }
+    &:link:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__date {
+    font-weight: 300;
+    color: $color-grey-dark-2;
+    font-size: 1.2rem;
+  }
+
+  &__content {
+    overflow: hidden;
+  }
+  &:hover {
+    background: $color-primary-dark;
+  }
+}
