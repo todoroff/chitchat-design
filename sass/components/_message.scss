@@ -2,6 +2,7 @@
   padding: 0 2rem;
   //background:salmon;
   margin: 1rem 0 0 0;
+  @include clearfix;
 
   &__avatar {
     float: left;
@@ -30,8 +31,9 @@
   }
 
   &__content {
-    overflow: hidden;
+    display: table-cell;
   }
+
   &:hover {
     background: $color-primary-dark;
   }
