@@ -45,15 +45,8 @@
     // }
   }
 
-  &__controls-icon {
-    &:link,
-    &:visited,
-    &:active {
-      color: $color-grey-light-2;
-    }
-
-    &:hover {
-      color: $color-tertiary-light;
-    }
+  &__control{
+    display: inline-block;
+    margin: 0 .5rem;
   }
 }

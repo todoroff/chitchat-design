@@ -6,7 +6,7 @@
     &,
     &:link,
     &:visited {
-      position:relative;
+      position: relative;
       border-radius: 0.25rem;
       display: inline-block;
       padding: 0.5rem 2rem;
@@ -15,7 +15,7 @@
       text-decoration: none;
       width: 100%;
       color: $color-tertiary-light;
-      transition: 0.15s all;
+      transition: background-color 0.2s, color 0.2s;
     }
 
     &:hover {
@@ -34,7 +34,7 @@
     }
   }
 
-  &__username{
+  &__username {
     margin-left: 1rem;
     position: absolute;
     top: 50%;
