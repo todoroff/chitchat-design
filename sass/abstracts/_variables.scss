@@ -9,6 +9,7 @@ $color-secondary: #78244c;
 $color-secondary-light: lighten(#78244c, 40%);
 
 $color-tertiary: #895061;
+$color-tertiary-light: lighten($color-tertiary, 30%);
 
 $color-blue-light: #0677a1;
 $color-blue-dark: #2d4159;
@@ -25,6 +26,10 @@ $color-black: #000;
 
 //FONT
 $default-font-size: 1.5rem;
+$font-small: 1.2rem;
+$font-medium: 1.65rem;
+$font-large: 1.8rem;
+$font-huge: 3rem;
 
 //PADDING
 $default-padding: 1rem 2rem;

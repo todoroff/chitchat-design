@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css?family='Roboto':300,400,400i,700,700i&display=swap"
+      href="https://fonts.googleapis.com/css?family=Lobster|Roboto:300,400,400i,700,700i&display=swap"
       rel="stylesheet"
     />
     <link href="css/style.css" rel="stylesheet" />
@@ -12,17 +12,51 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__section header__section--left">Left</div>
-      <div class="header__section header__section--middle">Middle</div>
-      <div class="header__section header__section--right">Left</div>
+      <div class="header__section header__section--left">
+        <span class="header__logo">ChitChat</span>
+      </div>
+      <div class="header__section header__section--right">
+        <div class="header__heading">
+          <i class="fas fa-hashtag"></i> General
+        </div>
+        <div class="header__controls">
+          <a class="btn btn--icon" href="#"
+            ><i class="fas fa-sign-out-alt" data-fa-transform="grow-3"></i
+          ></a>
+        </div>
+      </div>
     </header>
     <div class="wrapper">
-      <div class="sidebar sidebar--left">Left side</div>
+      <div class="sidebar sidebar--left">
+        <div class="channel-list">
+          <div class="channel-list__item">
+            <a href="#" class="channel-list__link channel-list__link--active"
+              ><i class="fas fa-hashtag"></i> General</a
+            >
+          </div>
+          <div class="channel-list__item">
+            <a href="#" class="channel-list__link"
+              ><i class="fas fa-hashtag"></i> Math</a
+            >
+          </div>
+          <div class="channel-list__item">
+            <a href="#" class="channel-list__link"
+              ><i class="fas fa-hashtag"></i> Fitness</a
+            >
+          </div>
+        </div>
+      </div>
       <main class="main">
         <div class="chat">
           <div class="chat__messages">
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -30,7 +64,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Mihail</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -42,7 +82,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -53,7 +99,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Mihail</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -62,7 +114,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -73,7 +131,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -81,7 +145,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Mihail</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -93,7 +163,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -104,7 +180,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Mihail</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -113,7 +195,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -124,7 +212,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -132,7 +226,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Mihail</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -144,7 +244,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Ruth</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -155,7 +261,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <span class="message__sender">Mihail</span>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -164,7 +276,13 @@
               </p>
             </div>
             <div class="message">
-              <div class="message__avatar"><img src="./img/avatar2.png" alt="" class="message__avatar-img" /></div> 
+              <div class="message__avatar">
+                <img
+                  src="./img/avatar2.png"
+                  alt=""
+                  class="message__avatar-img"
+                />
+              </div>
               <a href="#" class="message__sender">Ruth</a>
               <span class="message__date">12/07/23 16:00</span>
               <p class="message__content">
@@ -177,6 +295,11 @@
           </div>
           <div class="chat__inputs">
             <textarea class="chat__text-input" rows="1"></textarea>
+            <div class="chat__send-button">
+              <button class="btn btn--icon">
+                <i class="fas fa-paper-plane" data-fa-transform="grow-2"></i>
+              </button>
+            </div>
           </div>
         </div>
       </main>
@@ -185,6 +308,10 @@
     <script
       type="text/javascript"
       src="node_modules/autosize/dist/autosize.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"
     ></script>
     <script>
       autosize(document.querySelector(".chat__text-input"));

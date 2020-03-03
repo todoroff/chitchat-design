@@ -1,4 +1,8 @@
-.wrapper{
-  height: calc(100vh - 5rem);
+.wrapper {
+  height: calc(100% - 5rem);
   display: flex;
+
+  @media (max-width: $bp-phone) {
+    height: calc(100% - 11rem);
+  }
 }
