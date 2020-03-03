@@ -13,4 +13,12 @@
       display: none;
     }
   }
+
+  &__heading {
+    &--small {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: $font-small;
+    }
+  }
 }

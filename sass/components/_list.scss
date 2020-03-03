@@ -6,6 +6,7 @@
     &,
     &:link,
     &:visited {
+      position:relative;
       border-radius: 0.25rem;
       display: inline-block;
       padding: 0.5rem 2rem;
@@ -31,5 +32,12 @@
         background: $color-primary-light;
       }
     }
+  }
+
+  &__username{
+    margin-left: 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 }
