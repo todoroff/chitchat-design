@@ -1,0 +1,12 @@
+.avatar {
+  clip-path: circle(50% at 50% 50%);
+  width: 4rem;
+  height: 4rem;
+  transform: scale(1);
+  transition: all 0.5s;
+
+  &:hover  {
+    transform: scale(1.1);
+    filter: blur(0.1rem);
+  }
+}
