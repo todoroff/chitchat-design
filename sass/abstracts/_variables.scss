@@ -24,6 +24,10 @@ $color-grey-dark-3: #333;
 $color-white: #fff;
 $color-black: #000;
 
+$color-green: rgb(21, 172, 7);
+$color-green-dark: darken($color-green, 20%);
+$color-green-light: lighten($color-green, 10%);
+
 //FONT
 $default-font-size: 1.5rem;
 $font-small: 1.2rem;
