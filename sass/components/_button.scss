@@ -9,20 +9,35 @@
     display: inline-block;
     font-size: $default-font-size;
     background: none;
-    color: $color-grey-light-1;
+    color: $color-grey-light-2;
     cursor: pointer;
     border: 0;
-    transition: color 0.25s;
+    transition: background-color 0.25s, transform 0.25s;
   }
 
   &--icon {
     &,
     &:link,
     &:visited {
+      color: $color-grey-light-1;
       padding: 0;
     }
     &:hover {
       color: $color-tertiary-light;
+    }
+  }
+
+  &--primary {
+    background: $color-primary-darker;
+    &:hover {
+      transform: translateY(-0.15rem);
+      box-shadow: 0.25rem 0.25rem 0.25rem rgba($color-black, 0.2);
+    }
+
+    &:active {
+      transform: translateY(-.1rem);
+      box-shadow: 0.1rem 0.1rem 0.25rem rgba($color-black, 0.2);
+      box-shadow: none;
     }
   }
 }

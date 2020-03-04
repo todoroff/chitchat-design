@@ -4,5 +4,8 @@
 
   @media (max-width: $bp-phone) {
     height: calc(100vh - 11rem);
+    &--header-single {
+      height: calc(100vh - 5rem);
+    }
   }
 }

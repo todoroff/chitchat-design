@@ -22,8 +22,14 @@ body {
   color: $color-grey-light-2;
 }
 
-*:link, *:visited, *:active{
+a:link, a:visited, a:active{
   color: $color-grey-light-2;
+  font-weight: 700;
+  text-decoration: underline;
+
+  &:hover{
+    color: $color-tertiary-light;
+  }
 }
 
 p{

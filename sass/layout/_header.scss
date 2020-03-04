@@ -33,6 +33,12 @@
     padding: $default-padding;
     background: $color-primary;
 
+    &--single{
+      background: $color-primary-darker;
+      min-height: 6rem;
+      flex: 1;
+    }
+
     &--left {
       flex: 0 0 25rem;
       background: $color-primary-darker;
