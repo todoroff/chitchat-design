@@ -1,6 +1,8 @@
 .sidebar {
   padding: 1rem 1rem;
   flex: 0 0 25rem;
+  @include with-scrollbar;
+
   &--left {
     background: $color-primary-darker;
     @media (max-width: $bp-phone) {

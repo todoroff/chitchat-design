@@ -6,8 +6,7 @@
   &__messages {
     //height: calc(100% - 6.5rem);
     flex: 1;
-    overflow-y: scroll;
-    @include scrollbars(0.5rem, $color-primary-darkest, $color-primary-darker);
+    @include with-scrollbar;
     margin-bottom: 1.5rem;
   }
   &__inputs {

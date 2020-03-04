@@ -1,4 +1,12 @@
 .main {
   flex: 1;
   background: $color-primary;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  @include with-scrollbar;
+  scrollbar-width: auto;
+  &::-webkit-scrollbar {
+    width: 1rem;
+  }
 }

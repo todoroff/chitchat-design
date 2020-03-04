@@ -2,7 +2,7 @@
   position: relative;
   z-index: 100;
   display: flex;
-  box-shadow: 0 0.1rem 0.1rem 0 rgba($color-primary-darkest, 0.9);
+  box-shadow: 0 0.1rem 0.1rem 0 rgba($color-primary-darkest, 0.7);
   margin-bottom: 0rem;
 
   @media (max-width: $bp-phone) {

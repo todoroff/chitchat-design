@@ -30,6 +30,11 @@
   scrollbar-color: $foreground-color $background-color;
 }
 
+@mixin with-scrollbar {
+  overflow-y: auto;
+  @include scrollbars(0.5rem, $color-primary-darkest, $color-primary-darker);
+}
+
 
 @mixin clearfix {
   &::after {
