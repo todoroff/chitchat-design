@@ -12,11 +12,12 @@
   }
 
   &__sender {
-    font-weight: 700;
-    color: $color-secondary-light;
+    &,
     &:link,
     &:visited,
     &:active {
+      font-weight: 700;
+      color: $color-secondary-light;
       text-decoration: none;
     }
     &:link:hover {
