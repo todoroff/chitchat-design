@@ -1,0 +1,11 @@
+.u-margin-top {
+  margin-top: 2rem !important;
+}
+
+.u-center-text {
+  text-align: center !important;
+}
+
+.u-with-scrollbar {
+  @include with-scrollbar;
+}
