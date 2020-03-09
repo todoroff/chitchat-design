@@ -1,7 +1,11 @@
 .wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.page{
   height: calc(100vh - 5rem);
   display: flex;
-
   @media (max-width: $bp-phone) {
     height: calc(100vh - 11rem);
     &--header-single {
